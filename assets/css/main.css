@@ -28,6 +28,8 @@
 */
 
 /*** 1.0 - Hero ***/
+
+
 .hero-section {
     display: flex;
     align-items: center;
@@ -76,7 +78,7 @@
     margin: 0 auto;
     margin-top: 10px;
     size: 2em;
-    clip-path: inset(10%);
+    clip-path: inset(5%);
 }
 
 /*** 1.1 - Play Button ***/
@@ -183,7 +185,7 @@
 
 .hero-element .shape-wrap {
     width: 50%;
-    height: 100%;
+    height: 70%;
     position: absolute;
     left: -40px;
     bottom: 0;
