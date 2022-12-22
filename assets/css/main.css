@@ -311,7 +311,8 @@
 }
 
 .participate-team img {
-    max-height: 180px;
+    max-height: 17em;
+    align:left;
 }
 
 .participate-team:after,
