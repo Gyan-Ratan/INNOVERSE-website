@@ -466,7 +466,7 @@ body.loaded{
     text-transform: capitalize;
     display: inline-block;
     position: relative;
-    min-width: 180px;
+    min-width: 15em;
     height: 50px;
     line-height: 50px;
     padding: 0 40px;
