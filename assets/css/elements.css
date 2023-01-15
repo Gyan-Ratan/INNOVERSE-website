@@ -329,13 +329,15 @@ a, a:hover, img, .form-control, .form-control:hover, button {
 }
 
 /*** 1.8 - Preloader  ***/
-body{
+body {
     overflow: hidden;
 }
-body.loaded{
+
+body.loaded {
     overflow: inherit;
     overflow-x: hidden;
 }
+
 .loaded .site-preloader {
     opacity: 0;
     visibility: hidden;
@@ -861,5 +863,26 @@ body.loaded{
     #scrollup {
         bottom: 20px;
         right: 20px;
+    }
+}
+
+/* MY CSS */
+@media (max-width: 1920px) {
+    .counter {
+        position: absolute;
+        margin: auto;
+        top: 13em;
+        left: 48em;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 768px) {
+    .counter {
+        position: absolute;
+        margin: auto;
+        top: 29em;
+        left: 7.59em;
+        font-size: 0.8em;
     }
 }
