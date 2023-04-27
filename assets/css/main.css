@@ -1720,18 +1720,4 @@
     border-radius: 15px;
     }
 
-@keyframes gradient {
-    10% {
-        backdrop-filter: blur(10px);
-        background: rgba(255, 255, 255, 0.1);
-    }
-    40% {
-        backdrop-filter: blur(30px);
-        background: rgba(255, 255, 255, 0.2);
-    }
-    90% {
-        backdrop-filter: blur(70px);
-        background: rgba(255, 255, 255, 0.1);
-    }
-}
 
